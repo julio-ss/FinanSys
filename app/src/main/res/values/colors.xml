@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#6366F1</color>
+    <color name="primary_dark">#4F46E5</color>
+    <color name="primary_light">#818CF8</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary">#10B981</color>
+    <color name="secondary_dark">#059669</color>
+    <color name="secondary_light">#34D399</color>
+
+    <!-- Tertiary Colors -->
+    <color name="tertiary">#F59E0B</color>
+    <color name="tertiary_dark">#D97706</color>
+    <color name="tertiary_light">#FBBF24</color>
+
+    <!-- Status Colors -->
+    <color name="success">#10B981</color>
+    <color name="error">#EF4444</color>
+    <color name="warning">#F59E0B</color>
+    <color name="info">#3B82F6</color>
+
+    <!-- Grayscale -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray_50">#F9FAFB</color>
+    <color name="gray_100">#F3F4F6</color>
+    <color name="gray_200">#E5E7EB</color>
+    <color name="gray_300">#D1D5DB</color>
+    <color name="gray_400">#9CA3AF</color>
+    <color name="gray_500">#6B7280</color>
+    <color name="gray_600">#4B5563</color>
+    <color name="gray_700">#374151</color>
+    <color name="gray_800">#1F2937</color>
+    <color name="gray_900">#111827</color>
+
+    <!-- Semantic Colors -->
+    <color name="income">#10B981</color>
+    <color name="expense">#EF4444</color>
+    <color name="transfer">#3B82F6</color>
+
+    <!-- Background Colors -->
+    <color name="background_light">#FFFFFF</color>
+    <color name="background_dark">#0F172A</color>
+    <color name="surface_light">#F9FAFB</color>
+    <color name="surface_dark">#1E293B</color>
+</resources>

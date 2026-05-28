@@ -1,0 +1,49 @@
+# Gradle
+.gradle/
+build/
+gradle-app.settings
+.gradletasknamecache
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Local environment
+local.properties
+settings.local.json
+
+# Build
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+
+# Logs
+*.log
+
+# Google Services
+google-services.json
+!google-services.json.example
+
+# Environment
+.env
+.env.local
+
+# Node
+node_modules/
+npm-debug.log
+
+# Firebase
+.firebase/
+.firebaserc
+firebase-debug.log
+database-debug.log

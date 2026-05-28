@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <domain-config>
+        <domain name="database">
+            <path name="encrypted_database" requireDeviceCredentialEncryption="true" />
+        </domain>
+        <domain name="sharedpref">
+            <path name="encrypted_preferences" requireDeviceCredentialEncryption="true" />
+        </domain>
+    </domain-config>
+</data-extraction-rules>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Finix</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_title">Finix</string>
+    <string name="splash_subtitle">Controle Financeiro Inteligente</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Bem-vindo ao Finix</string>
+    <string name="onboarding_welcome_description">O melhor app para controlar suas finanças</string>
+    <string name="onboarding_next">Próximo</string>
+    <string name="onboarding_skip">Pular</string>
+    <string name="onboarding_start">Começar</string>
+
+    <!-- Authentication -->
+    <string name="login_title">Entrar</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Senha</string>
+    <string name="login_remember">Lembrar-me</string>
+    <string name="login_forgot_password">Esqueceu a senha?</string>
+    <string name="login_no_account">Não tem conta?</string>
+    <string name="login_button">Entrar</string>
+    <string name="login_google">Entrar com Google</string>
+
+    <string name="register_title">Criar Conta</string>
+    <string name="register_name">Nome</string>
+    <string name="register_email">Email</string>
+    <string name="register_password">Senha</string>
+    <string name="register_confirm_password">Confirmar Senha</string>
+    <string name="register_button">Criar Conta</string>
+    <string name="register_have_account">Já tem conta?</string>
+
+    <string name="forgot_password_title">Recuperar Senha</string>
+    <string name="forgot_password_email">Email registrado</string>
+    <string name="forgot_password_send">Enviar Link</string>
+    <string name="forgot_password_back">Voltar</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_balance">Saldo</string>
+    <string name="dashboard_income">Receita</string>
+    <string name="dashboard_expenses">Despesas</string>
+    <string name="dashboard_month">Este Mês</string>
+    <string name="dashboard_recent_transactions">Últimas Transações</string>
+    <string name="dashboard_goals">Metas</string>
+    <string name="dashboard_cards">Cartões</string>
+    <string name="dashboard_insights">Insights</string>
+
+    <!-- Transactions -->
+    <string name="transactions_title">Transações</string>
+    <string name="transactions_add">Adicionar Transação</string>
+    <string name="transactions_filter">Filtrar</string>
+    <string name="transactions_search">Pesquisar Transações</string>
+    <string name="transactions_type_income">Receita</string>
+    <string name="transactions_type_expense">Despesa</string>
+    <string name="transactions_type_transfer">Transferência</string>
+
+    <!-- Add Transaction -->
+    <string name="add_transaction_title">Nova Transação</string>
+    <string name="add_transaction_type">Tipo</string>
+    <string name="add_transaction_amount">Valor</string>
+    <string name="add_transaction_category">Categoria</string>
+    <string name="add_transaction_description">Descrição</string>
+    <string name="add_transaction_date">Data</string>
+    <string name="add_transaction_account">Conta</string>
+    <string name="add_transaction_tags">Tags</string>
+    <string name="add_transaction_save">Salvar</string>
+    <string name="add_transaction_cancel">Cancelar</string>
+
+    <!-- Cards -->
+    <string name="cards_title">Cartões</string>
+    <string name="cards_add">Adicionar Cartão</string>
+    <string name="cards_limit">Limite</string>
+    <string name="cards_usage">Uso</string>
+    <string name="cards_bill">Fatura</string>
+    <string name="cards_due_date">Vencimento</string>
+
+    <!-- Goals -->
+    <string name="goals_title">Metas</string>
+    <string name="goals_add">Criar Meta</string>
+    <string name="goals_target">Meta</string>
+    <string name="goals_current">Atual</string>
+    <string name="goals_deadline">Prazo</string>
+    <string name="goals_progress">Progresso</string>
+
+    <!-- Reports -->
+    <string name="reports_title">Relatórios</string>
+    <string name="reports_monthly">Mensal</string>
+    <string name="reports_yearly">Anual</string>
+    <string name="reports_category">Por Categoria</string>
+    <string name="reports_export">Exportar</string>
+
+    <!-- AI Insights -->
+    <string name="ai_insights_title">IA Financeira</string>
+    <string name="ai_insights_analysis">Análise do Mês</string>
+    <string name="ai_insights_recommendations">Recomendações</string>
+    <string name="ai_insights_summary">Resumo</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Configurações</string>
+    <string name="settings_account">Conta</string>
+    <string name="settings_security">Segurança</string>
+    <string name="settings_notifications">Notificações</string>
+    <string name="settings_appearance">Aparência</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_currency">Moeda</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_backup">Backup</string>
+    <string name="settings_about">Sobre</string>
+    <string name="settings_logout">Sair</string>
+
+    <!-- Errors -->
+    <string name="error_network">Erro de conexão. Verifique sua internet.</string>
+    <string name="error_invalid_email">Email inválido.</string>
+    <string name="error_weak_password">Senha fraca. Use maiúsculas, números e caracteres especiais.</string>
+    <string name="error_passwords_not_match">As senhas não correspondem.</string>
+    <string name="error_login_failed">Email ou senha incorretos.</string>
+    <string name="error_generic">Algo deu errado. Tente novamente.</string>
+
+    <!-- Success Messages -->
+    <string name="success_login">Login realizado com sucesso!</string>
+    <string name="success_register">Conta criada com sucesso!</string>
+    <string name="success_transaction_saved">Transação salva!</string>
+    <string name="success_card_added">Cartão adicionado!</string>
+    <string name="success_goal_created">Meta criada!</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_transactions">Transações</string>
+    <string name="nav_cards">Cartões</string>
+    <string name="nav_reports">Relatórios</string>
+    <string name="nav_profile">Perfil</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Salvar</string>
+    <string name="delete">Deletar</string>
+    <string name="edit">Editar</string>
+    <string name="close">Fechar</string>
+    <string name="loading">Carregando...</string>
+    <string name="empty_state">Nenhum dado disponível</string>
+    <string name="retry">Tentar Novamente</string>
+</resources>
