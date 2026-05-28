@@ -6,10 +6,3 @@ plugins {
     alias(libs.plugins.google.services) apply false
     alias(libs.plugins.firebase.crashlytics) apply false
 }
-
-buildscript {
-    dependencies {
-        classpath(libs.google.services)
-        classpath(libs.firebase.crashlytics.gradle)
-    }
-}
