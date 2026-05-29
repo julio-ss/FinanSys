@@ -184,8 +184,8 @@ private fun DashboardContent(
 @Composable
 private fun DashboardExpenseChart(dashboard: com.finix.app.domain.model.Dashboard) {
     ExpenseChartCard(
-        totalIncome = dashboard.totalIncome,
-        totalExpense = dashboard.totalExpense
+        totalIncome = dashboard.monthlyIncome,
+        totalExpense = dashboard.monthlyExpense
     )
 }
 
@@ -212,7 +212,7 @@ private fun DashboardIncomeExpenseRow(dashboard: com.finix.app.domain.model.Dash
                     color = Income
                 )
                 Text(
-                    text = "R$ ${String.format("%.2f", dashboard.totalIncome)}",
+                    text = "R$ ${String.format("%.2f", dashboard.monthlyIncome)}",
                     style = MaterialTheme.typography.titleSmall
                 )
             }
@@ -233,7 +233,7 @@ private fun DashboardIncomeExpenseRow(dashboard: com.finix.app.domain.model.Dash
                     color = Expense
                 )
                 Text(
-                    text = "R$ ${String.format("%.2f", dashboard.totalExpense)}",
+                    text = "R$ ${String.format("%.2f", dashboard.monthlyExpense)}",
                     style = MaterialTheme.typography.titleSmall
                 )
             }
